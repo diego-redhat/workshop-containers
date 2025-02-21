@@ -76,11 +76,11 @@ O objetivo desta demonstração é colocar em prática alguns conceitos básicos
 
 ## 7. 🔹 Agora, vamos criar nossa primeira imagem de container
 
-#### Baixe o projeto demo-app para o seu ambiente local utilizando o seguinte comando:
+#### Baixe o projeto demo-app para o seu ambiente local e acesse utilizando os seguintes comandos:
 
 `git clone https://github.com/diego-redhat/demo-app.git`
 
+`cd demo-app`
+
 ---
 &nbsp;
-
-
