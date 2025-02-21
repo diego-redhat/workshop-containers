@@ -6,7 +6,7 @@ O objetivo desta demonstração é colocar em prática alguns conceitos básicos
 
 ---
 
-## 1. 🔹 Baixando nossa primeira imagem de contêiner
+## 1. Baixando nossa primeira imagem de contêiner
 
 #### Neste passo, vamos aprender como baixar a nossa primeira imagem de contêiner:
 
@@ -15,7 +15,7 @@ O objetivo desta demonstração é colocar em prática alguns conceitos básicos
 ---
 &nbsp;
 
-## 2. 🔹 Confirmando a imagem baixada
+## 2. Confirmando a imagem baixada
 
 #### Com o comando a seguir, é possível verificar a imagem baixada e observar seu tamanho:
 
@@ -26,7 +26,7 @@ O objetivo desta demonstração é colocar em prática alguns conceitos básicos
 ---
 &nbsp;
 
-## 3. 🔹 Executando nosso primeiro container
+## 3. Executando nosso primeiro container
 
 #### Agora, vamos executar nosso primeiro container com a imagem do passo anterior:
 
@@ -35,7 +35,7 @@ O objetivo desta demonstração é colocar em prática alguns conceitos básicos
 ---
 &nbsp;
 
-## 4. 🔹 Verificando o container em execução
+## 4. Verificando o container em execução
 
 #### Em seguida, podemos verificar se o container está em execução:
 
@@ -48,7 +48,7 @@ O objetivo desta demonstração é colocar em prática alguns conceitos básicos
 ---
 &nbsp;
 
-## 5. 🔹 Testando nosso webserver em funcionamento
+## 5. Testando nosso webserver em funcionamento
 
 #### Agora, basta abrir o navegador e acessar a URL http://127.0.0.1:8000 para verificar o funcionamento do webserver localmente:
 
@@ -57,7 +57,7 @@ O objetivo desta demonstração é colocar em prática alguns conceitos básicos
 ---
 &nbsp;
 
-## 6. 🔹 Para finalizar, vamos parar e remover nosso container 
+## 6. Para finalizar, vamos parar e remover nosso container 
 
 #### Primeiro, é necessário obter o ID do nosso container:
 
@@ -74,7 +74,7 @@ O objetivo desta demonstração é colocar em prática alguns conceitos básicos
 ---
 &nbsp;
 
-## 7. 🔹 Agora, vamos criar nossa primeira imagem de container
+## 7. Agora, vamos criar nossa primeira imagem de container
 
 #### Baixe o projeto demo-app para o seu ambiente local e acesse utilizando os seguintes comandos:
 
@@ -85,7 +85,7 @@ O objetivo desta demonstração é colocar em prática alguns conceitos básicos
 ---
 &nbsp;
 
-## 8. 🔹 Antes de construir nossa imagem, vamos analisar o arquivo Containerfile:
+## 8. Antes de construir nossa imagem, vamos analisar o arquivo Containerfile:
 
 `cat Containerfile`
 
