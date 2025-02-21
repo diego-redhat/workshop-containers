@@ -119,6 +119,21 @@ CMD ["./demo-app"]
 
 `podman run -dit -p 8001:8080 my-image:v1.0`
 
+## 14. Vamos criar uma nova versão da nossa aplicação
+
+#### Antes, precisamos fazer um pequeno ajuste no nosso código:
+
+`vim static/index.html`
+
+#### Altere a versão do arquivo PNG de `image_v1.png` para `image_v2.png`
+
+![image](https://github.com/user-attachments/assets/08631632-6a76-484b-bfc8-a9c48f1314c6)
+
+#### Para salvar a alteração, execute o comando abaixo no editor Vim:
+
+`esc + :wq!`
+
+
 ---
 &nbsp;
 
