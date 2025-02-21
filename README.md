@@ -133,6 +133,21 @@ CMD ["./demo-app"]
 
 `esc + :wq!`
 
+## 15. Realizando o build da versão v2.0 da aplicação
+
+`podman build -t my-image:v2.0 .`
+
+## 16. Confirmando a criação da versão v2.0
+
+`podman image ls`
+
+![image](https://github.com/user-attachments/assets/7a2af6e9-8e8b-4f67-a4ef-1431646847a1)
+
+## 17.  Podemos criar o novo container e realizar os testes.
+
+`podman run -dit -p 8002:8080 my-image:v2.0`
+
+![image](https://github.com/user-attachments/assets/c71a2bbe-ce49-4553-9978-320c1b808eab)
 
 ---
 &nbsp;
