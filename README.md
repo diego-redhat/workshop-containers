@@ -74,23 +74,11 @@ O objetivo desta demonstração é colocar em prática alguns conceitos básicos
 ---
 &nbsp;
 
-## 7. 🔹 Run-gns3
-
-#### After installation, you can start GNS3 by searching for the "GNS3" application in your desktop environment menu or by running:
-
-```gns3```
-
-💡 On the first run, GNS3 will open a setup wizard. For local usage, select "Run appliances on my local computer" and follow the instructions.
-
-
----
-&nbsp;
-
-## 8. 🔹 Agora, vamos criar nossa primeira imagem de container
+## 7. 🔹 Agora, vamos criar nossa primeira imagem de container
 
 #### Baixe o projeto demo-app para o seu ambiente local utilizando o seguinte comando:
 
-`gns3`
+`git clone https://github.com/diego-redhat/demo-app.git`
 
 ---
 &nbsp;
