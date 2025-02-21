@@ -99,6 +99,26 @@ CMD ["./demo-app"]
 
 `podman image ls`
 
+![image](https://github.com/user-attachments/assets/d13b9788-e07f-475c-a867-72664ef7b1ba)
+
+## 11. Após validar a criação da imagem, podemos criar o container
+
+`podman run -dit -p 8000:8080 my-image:v1.0`
+
+## 12. Testando nossa aplicação em funcionamento
+
+#### Agora, basta abrir o navegador e acessar a URL http://127.0.0.1:8000 para verificar o funcionamento:
+
+![image](https://github.com/user-attachments/assets/e097a736-cb39-4331-a4ef-379397608b4a)
+
+## 13. Gerando um novo container a partir da mesma imagem
+
+#### A tecnologia de containers permite que múltiplos containers sejam executados a partir da mesma imagem criada.
+
+#### Será necessário alterar apenas a porta de origem no host. Para validar, repita o procedimento descrito no passo 12:
+
+`podman run -dit -p 8001:8080 my-image:v1.0`
+
 ---
 &nbsp;
 
