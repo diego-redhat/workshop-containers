@@ -30,8 +30,19 @@ O objetivo desta demonstração é colocar em prática alguns conceitos básicos
 
 ``podman container ls``
 
-![image](https://github.com/user-attachments/assets/afa3cb92-a8fd-4dbc-bc00-840b9d2c8521)
+![image](https://github.com/user-attachments/assets/20965d7b-f6d0-469f-8289-106c67567b85)
 
+#### Para verificar que o container está isolado da maquina host, pegue o ID gerado e acesse-o:
+
+`podman exec -it 80402d266d18 bash`
+
+#### Observe que se trata de um SO completamente diferente:
+
+![image](https://github.com/user-attachments/assets/8ca1bc3f-3248-4906-a012-1cc9ee9cea3b)
+
+#### Digite o comando abaixo para retornar para maquina host:
+
+`exit`
 
 ## 5. Testando nosso webserver em funcionamento
 
