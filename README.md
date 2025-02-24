@@ -126,9 +126,9 @@ CMD ["./demo-app"]
 
 #### A tecnologia de containers permite que múltiplos containers sejam executados a partir da mesma imagem criada.
 
-#### Será necessário alterar apenas a porta de origem no host. Para validar, repita o procedimento descrito no passo 12:
-
 `podman run -dit -p 8001:8080 my-image:v1.0`
+
+#### Será necessário alterar apenas a porta de origem no host. Para validar, acesse http://127.0.0.1:8001:
 
 ## 14. Vamos criar uma nova versão da nossa aplicação
 
