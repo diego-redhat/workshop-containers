@@ -158,6 +158,8 @@ CMD ["./demo-app"]
 
 `podman run -dit -p 8002:8080 my-image:v2.0`
 
+#### Agora, basta abrir o navegador e acessar a URL http://127.0.0.1:8002 para verificar o funcionamento
+
 ![image](https://github.com/user-attachments/assets/c71a2bbe-ce49-4553-9978-320c1b808eab)
 
 ---
